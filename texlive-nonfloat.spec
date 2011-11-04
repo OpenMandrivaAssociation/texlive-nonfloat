@@ -1,3 +1,9 @@
+# revision 17598
+# category Package
+# catalog-ctan /macros/latex/contrib/nonfloat
+# catalog-date 2007-01-12 00:17:35 +0100
+# catalog-license pd
+# catalog-version 1.0
 Name:		texlive-nonfloat
 Version:	1.0
 Release:	1
@@ -47,6 +53,7 @@ changed.
 %doc %{_texmfdistdir}/source/latex/nonfloat/nonfloat.drv
 %doc %{_texmfdistdir}/source/latex/nonfloat/nonfloat.dtx
 %doc %{_texmfdistdir}/source/latex/nonfloat/nonfloat.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ changed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
