@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-nonfloat
 Version:	1.0
-Release:	5
+Release:	6
 Summary:	Non-floating table and figure captions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nonfloat
