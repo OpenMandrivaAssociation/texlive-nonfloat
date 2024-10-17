@@ -3,7 +3,7 @@ Version:	17598
 Release:	2
 Summary:	Non-floating table and figure captions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nonfloat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nonfloat
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nonfloat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nonfloat.doc.r%{version}.tar.xz
